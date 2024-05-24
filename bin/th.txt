@@ -1,0 +1,19 @@
+								DATA TYPE
+
+Primitive Data type									Non Primitive Data type
+																String
+Non-numric			numric 										Array					
+boolean    														etc
+char		
+			 Integer      Floting Point
+			 byte          float
+			 short 		   double	
+			 int
+			 long	
+			 
+			 
+method: behaviour of class
+	  : method is collection of statments
+	  
+	  static method   non static method
+	  with return type with argument				 					
