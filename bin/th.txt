@@ -16,4 +16,43 @@ method: behaviour of class
 	  : method is collection of statments
 	  
 	  static method   non static method
-	  with return type with argument				 					
+	  with return type with argument	
+	  
+----------------------------------------
+
+oops:
+encapulation
+:class
+	object
+	constructors
+	data hiding
+		access and non access modifiers
+		
+	
+		
+inheritance
+polymorphisam
+abstraction
+
+
+
+constructor: const is special functions which has same name as class name
+
+use of constructor is to initise instance variable of class and object of class
+
+type of const:
+
+1)default const
+2)pram const
+
+const can have param but dont have return type
+one class must have 1 constructor... if programmer will not const, compiler will do.. default const
+
+
+
+
+
+
+
+
+	  			 				
