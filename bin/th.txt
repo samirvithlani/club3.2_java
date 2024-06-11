@@ -50,6 +50,52 @@ one class must have 1 constructor... if programmer will not const, compiler will
 
 
 
+access modifiers
+
+private
+default
+protected
+public
+
+
+-----------
+non access modifiers
+static
+final
+
+
+
+
+
+const with inheritance
+
+parent default
+
+child default
+parent dfault const ---> child dfault--->
+------------
+
+parent class param
+child class / default / param -
+then parent class const must invoke from child class const using super(pass required patam)
+
+---
+parent class param / default
+
+then it is choice which const needs to call of parent class..
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
