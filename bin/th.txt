@@ -84,6 +84,19 @@ parent class param / default
 
 then it is choice which const needs to call of parent class..
 
+polymorephisam :
+many form of the functions....
+
+compile time poly.... early biniding,. | static binindg...
+	method overloaing()
+run time poly...  lazy binding  | dynaminc binding...
+	method overriding...
+	polymorephic object..
+	
+method overloading...
+we will have same name of method in same class or parent class or child class but with diff param called method overloading...
+Shape(){}
+	
 
 
 
