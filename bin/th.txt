@@ -98,6 +98,26 @@ we will have same name of method in same class or parent class or child class bu
 Shape(){}
 	
 
+overriding:
+child class have same method of parent class called overriding....
+it should match signature
+
+access modifiers
+return type
+method name
+param
+
+access modifiers can be change*
+if parent class have default modi --> child class can make default,proected,public
+
+
+abstraction :--
+
+we can achive ; using 
+abstract class and abstract method...
+interface
+
+abstract methods can be created inside abstract only...
 
 
 
