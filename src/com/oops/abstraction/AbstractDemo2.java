@@ -14,6 +14,7 @@ public class AbstractDemo2 extends AbstractDemo1{
 		
 		AbstractDemo2 ab = new AbstractDemo2();
 		ab.phone();
+		ab.nonAbs();
 	}
 
 }
