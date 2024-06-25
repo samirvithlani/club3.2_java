@@ -120,6 +120,35 @@ interface
 abstract methods can be created inside abstract only...
 
 
+String:
+
+String is class : java.lang.String
+----------------------------------
+
+java String is immutable:
+
+String name = "amit"
+
+scp --> value "amit"
+String nams1 = "amit" 
+
+
+
+String constant pool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
