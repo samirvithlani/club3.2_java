@@ -140,6 +140,9 @@ String constant pool
 
 
 
+userDefine method :---> (string,char) -->hi this is india,i
+									     i --> count
+
 
 
 
