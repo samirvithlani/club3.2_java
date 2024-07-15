@@ -13,6 +13,8 @@ public class StringDemo3 {
 		//byte b [] = addr.getBytes();
 		
 		
+		if(addr.charAt(0)=='i');
+		
 		
 		
 		
