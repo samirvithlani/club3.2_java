@@ -146,11 +146,15 @@ userDefine method :---> (string,char) -->hi this is india,i
 
 
 
+hi this is beautiful city,and city beautiful fountain;
 
 
 
 
 
+
+
+ 
 
 
 
