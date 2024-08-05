@@ -149,8 +149,25 @@ userDefine method :---> (string,char) -->hi this is india,i
 hi this is beautiful city,and city beautiful fountain;
 
 
+error    : syntax problem: solve 
+exception: developer logica, system .... handle
+
+Error
+Exception
+
+							Throwable
+	Error															Exception
+																		child n...
+																								
+Type of exception:
+run time exception | uncheck exception     :
+compile time exception | checked exception :
 
 
+for handle exception we have 2 ways
+throws keyword
+try catch and finally block.																								
+																								
 
 
 
