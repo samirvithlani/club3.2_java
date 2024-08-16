@@ -167,11 +167,32 @@ compile time exception | checked exception :
 for handle exception we have 2 ways
 throws keyword
 try catch and finally block.																								
-																								
+										
+										
+java.io
+
+2 type file classes
+
+low level file class						high level file class
+byte | stream 										char | line | word
+													Reader,Writer 
+InputStream										FileRead,FileWriter,					
+OutputStream																								
 
 
 
- 
+
+realtive path:
+
+	current folder abc   
+			 ./image.txt
+			 ../../image.txt 
+			 ../../../image.txt		
+
+
+abs path: 
+d:royal/abc
+d:royal/abc/image.txt
 
 
 

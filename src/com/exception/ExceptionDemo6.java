@@ -4,7 +4,7 @@ package com.exception;
 
 class InvalidAgeException extends Exception{
 	
-	public InvalidAgeException(String str) {
+	 protected InvalidAgeException(String str) {
 		
 		super(str);
 	}
