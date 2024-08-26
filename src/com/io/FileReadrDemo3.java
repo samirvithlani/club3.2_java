@@ -30,7 +30,7 @@ public class FileReadrDemo3 {
 			}
 			//reset mark..
 			
-			//reader.reset();
+			reader.reset();
 			System.out.println("\n stream reset to mark position..");
 			
 			for (int i = 0; i < 5; i++) {
