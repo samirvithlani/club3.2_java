@@ -1,5 +1,6 @@
 package com.date;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class CalanderDemo2 {
@@ -16,6 +17,11 @@ public class CalanderDemo2 {
 		System.out.println(c.getTime());
 		
 		//find which day will be after 5 days :Monday
+	
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
+		String strDate = sdf.format(c.getTime());
+		System.out.println(strDate);
 		
 		
 	}
