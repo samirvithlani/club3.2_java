@@ -196,6 +196,25 @@ d:royal/abc/image.txt
 
 
 
+Exceptions:
+run time exception    : unchecked exception
+compile time exception: checked exception
+
+exception handle:
+try catch finally
+throws keyword
+
+											Throwable
+
+					Error                                          Exception
+					 ...                                               RunTimeException											
+
+
+
+
+
+
+
 
 
 
