@@ -211,6 +211,30 @@ throws keyword
 
 
 
+collection framework:
+
+java.util.*
+
+									Iterable(i)
+										
+									Collection(i)
+
+	List(i)               Set(i)           			Queue(i)                       Map(i)
+	ArrayList(c)		TreeSet(C)                  Deque(i)                    TreeMap(C)
+						HashSet(c)                  LinkedList(c)               HashMap(c)
+	LinkedList(c)                                   PriorityQueue
+	Vector(c)
+	
+	
+Array is group of similar kind of data...
+list:
+list stores data in dynamic array:
+list allows to store duplicate elm..
+list is iterable
+list is subcriptable
+list stores data in homogenuous manner								
+
+
 
 
 
