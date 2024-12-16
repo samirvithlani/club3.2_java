@@ -28,6 +28,19 @@ public class ListDemo4 {
 	public static void main(String[] args) {
 		
 		
+		String[] class11 = new String[] {"ram","shyam","seeta"};
+		String[] class10 = new String[] {"ram","shyam","seeta"};
+		String[] class12 = new String[] {"ram","shyam","seeta"};
+		
+		
+		List<String[]> list = new ArrayList<String[]>();
+		list.add(class10);
+		list.add(class10);
+		list.add(class10);
+		
+		///itration...
+		
+		
 		List<Student> studentList = new ArrayList<Student>();
 		Student s1 =new Student(101, "raj", 78.89f);
 		Student s2  =new Student(102, "amit", 65.78f);
@@ -42,6 +55,9 @@ public class ListDemo4 {
 		for(Student stu:studentList) {
 			System.out.println(stu.id + " "+stu.name + " "+stu.marks);
 		}
+		
+		
+		
 		
 		
 		

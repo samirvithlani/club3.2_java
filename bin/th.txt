@@ -232,7 +232,32 @@ list stores data in dynamic array:
 list allows to store duplicate elm..
 list is iterable
 list is subcriptable
-list stores data in homogenuous manner								
+list stores data in homogenuous manner	
+
+
+
+
+array list
+ linked..
+ 
+ ["java","python","c"]..1000...
+ add(1,"cpp")
+ ["java","cpp","python","c"]..1000...
+ remove(2)
+ ["java","cpp","c"]..1000...
+ 
+ LinkedList:
+ retirve : ArrayList
+ manupule... linkedList
+ 
+ 
+ 						10
+ 					p         n
+ 							
+ 						22
+ 					p	     n
+ 						33
+ 						123							
 
 
 
