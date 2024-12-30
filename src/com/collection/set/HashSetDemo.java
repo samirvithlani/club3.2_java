@@ -15,6 +15,7 @@ public class HashSetDemo {
 		hashset.add("oop");
 		hashset.add("python");
 		hashset.add("go");
+		hashset.add("go");
 		
 		
 		
