@@ -1,50 +1,37 @@
 package com.collection.list;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
-
 class Book implements Comparable<Book>{
-	
-	String bName; //java //pyton
-	int bPrice;
-	
-	
-	
-	public Book(String bName, int bPrice) {
-		
-		this.bName = bName;
-		this.bPrice = bPrice;
-	}
+    String name;
+    int price;
 
+    public Book(String bName, int bPrice) {
 
-	@Override
-	public int compareTo(Book o) {
-		// TODO Auto-generated method stub
-		return Integer.compare(this.bName.length(), o.bName.length());
-	}
-	
-	
+        this.name = bName;
+        this.price = bPrice;
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        // TODO Auto-generated method stub
+        return Integer.compare(this.name.length(), o.name.length());
+    }
 }
 
-public class ComparableDemo {
+public class ComparableDemo{
+    public static void main(String[] args) {
+        List<Book> books = new ArrayList<Book>();
+        books.add(new Book("Java", 100));
+        books.add(new Book("a",200));
+        books.add(new Book("Python",300));
+        books.add(new Book("css",400));
 
-	
-	public static void main(String[] args) {
-		
-		List<Book> books = new ArrayList<Book>();
-		books.add(new Book("java",100));
-		books.add(new Book("python", 200));
-		books.add(new Book("pytho", 200));
-		books.add(new Book("a", 200));
-		
-		
-		Collections.sort(books);
-	
-		
-		for(Book b:books) {
-			System.out.println(b.bName  + " "+b.bPrice);
-		}
-	}
+        Collections.sort(books);
+        for(Book b:books){
+           System.out.println(b.name);
+        }
+
+        
+    }
 }
