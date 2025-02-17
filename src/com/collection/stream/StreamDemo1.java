@@ -26,13 +26,16 @@ public class StreamDemo1 {
 //			System.out.println(s);
 //		}
 		
-//		List<String> filtNames = names.stream().filter(x->x.startsWith("s")).collect(Collectors.toList());
+	//	List<String> filtNames = names.stream().filter(x->x.startsWith("s")).collect(Collectors.toList());
 //		filtNames.stream().forEach(System.out::println);
 		
 		
 		//names.stream().map(String::toUpperCase).forEach(System.out::println);
-		List<String> upperNames = names.stream().map(String::toUpperCase).collect(Collectors.toList());
-		upperNames.stream().forEach(System.out::println);
+//		List<String> upperNames = names.stream().map(String::toUpperCase).collect(Collectors.toList());
+//		upperNames.stream().forEach(System.out::println);
+		
+		
+		names.stream().filter(x->x.startsWith("s")).map(String::toUpperCase).forEach(System.out::println);
 		
 		
 		
