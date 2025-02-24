@@ -257,7 +257,31 @@ array list
  						22
  					p	     n
  						33
- 						123							
+ 						123			
+ 						
+ 						
+inter thread communication....
+
+1 thread ---> wait stage non runnable...
+
+x --> wait
+y --> runn.... notify 										
+
+
+1 call --> waiting....
+1 call hold ---> recive... end -> notify --->
+
+
+wait and notify ---> Thrad class --- Object class
+
+
+
+
+
+
+
+
+
 
 
 
